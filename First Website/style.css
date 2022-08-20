@@ -57,3 +57,196 @@ nav img{
     width: 100%;
 
 }
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+    font-size:50px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.visit-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.visit-btn:hover{
+    border: 1px solid #0096FF;
+    background: #0096FF;
+    transition: 1s;
+}
+
+/*    character */
+
+
+
+.characters{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    color: #fff;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.col1{
+    
+    background-image: linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)),url(images/amber1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col1:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+.col2{
+    
+    background-image: linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)),url(images/kaeya1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+    
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col2:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+.col3{
+    
+    background-image: linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)),url(images/lisa.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.col4{
+    
+    background-image: linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)),url(images/fischl1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col4:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+.col5{
+    
+    background-image: linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)),url(images/razor1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col5:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+.col6{
+    
+    background-image: linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)),url(images/bennet1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+    border-radius: 10px;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.col6:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
