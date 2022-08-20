@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -112,11 +116,14 @@ h1{
 }
 
 p{
-    color: #777;
+    color: #fff;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+}
+.side_text{
+    color: #777;
 }
 
 .row{
@@ -125,14 +132,10 @@ p{
     justify-content: space-between;
 }
 
-p{
-    color: #fff;
+h6{
+    color: #777;
 }
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
+
 
 .col1{
     
@@ -249,4 +252,130 @@ h3{
 }
 .col6:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+/*            lore            */
+
+.region{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.side_text2{
+    color: #777;
+}
+
+.reg_col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.reg_col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(100, 101, 129, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 60px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    opacity: 0;
+    transition: 0.5s;
+    
+    position: absolute;
+}
+
+.layer:hover h3{
+    bottom: 43%;
+    opacity: 1;
+}
+
+
+
+
+/*                contact             */
+
+.cont{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+.contact h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 25px;
+
+}
+
+
+
+
+
+/*           About us           */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.foottxt{
+
+    color: #777;
+
 }

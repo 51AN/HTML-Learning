@@ -14,11 +14,11 @@
             <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">CHARACTERS</a></li>
-                    <li><a href="">LORE</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#charas">CHARACTERS</a></li>
+                    <li><a href="#regions">REGIONS</a></li>
+                    <li><a href="#contactsus">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
@@ -36,8 +36,8 @@
 
 <section class="characters">
 
-    <h1>Characters in Genshin Impact</h1>
-    <p>Genshin has a selection of various characters featured in it<br>A few of them are given below</p>
+    <h1 id="charas">Characters in Genshin Impact</h1>
+    <p class="side_text">Genshin has a selection of various characters featured in it<br>A few of them are given below</p> 
     <div class="row">
         <div class="col1" onclick="location.href='https://genshin-impact.fandom.com/wiki/Amber?so=search';" style="cursor: pointer;">
             <h3>Amber</h3>
@@ -95,12 +95,75 @@
 </section>
 
 
-<!----------Lore------------->
+<!----------Regions------------->
 
-<section>
-    <h1>Enter the vast magical land of Tevyat!</h1>
-    <p></p>
+<section class="region">
+    <h1 id="regions">Enter the vast magical land of Tevyat!</h1>
+    <p class="side_text2">What mystery will unravel through your journey in genshin impact? Let's find out traveling through Tevyat!</p>
+
+    <div class="reg_row">
+        <div class="reg_col">
+            <img src="images/mondstad.jpg" alt="">
+            <div class="layer" onclick="location.href='https://genshin-impact.fandom.com/wiki/Mondstadt';" style="cursor: pointer;">
+                <h3>MONDSTAD</h3>
+            </div>
+        </div>
+        <div class="reg_col">
+            <img src="images/liyue.jpg" alt="">
+            <div class="layer" onclick="location.href='https://genshin-impact.fandom.com/wiki/Liyue';" style="cursor: pointer;">
+                <h3>LIYUE</h3>
+            </div>
+        </div>
+        <div class="reg_col">
+            <img src="images/inazuma.jpg" alt="">
+            <div class="layer" onclick="location.href='https://genshin-impact.fandom.com/wiki/Inazuma';" style="cursor: pointer;">
+                <h3>Inazuma</h3>
+            </div>
+        </div>
+        <div class="reg_col">
+            <img src="images/sumeru.jpg" alt="">
+            <div class="layer" onclick="location.href='https://genshin-impact.fandom.com/wiki/Sumeru';" style="cursor: pointer;">
+                <h3>SUMERU</h3>
+            </div>
+        </div>
+        
+    </div>
+
 </section>
+
+
+
+
+<!-------------Contact---------->
+<h1 class="cont" id="contactsus">Contact Info</h1>
+
+<section class="contact">
+    
+    <h1>For any query, feel free to contact the official Genshin Impact team</h1>
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="visit-btn">CONTACT US</a>
+
+</section>
+
+<!-------------Footer---------->
+
+<section class="footer">
+    
+    <h4 id="about">About Us</h4>
+    <p class="foottxt">This website is made by a true genshin impact fan. 
+        <br>The development of the site is based on simply having a lot of free time :3 (And having to submit a demo website -_-')
+        <br>Support the developers by installing the game and visiting the official website
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+
+</section>
+
+
 
 
 </body>
