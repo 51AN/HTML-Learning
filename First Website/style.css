@@ -73,9 +73,22 @@ nav img{
 
 }
 .text-box h1{
-    font-size:50px;
+    font-size:60px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
 
 }
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
@@ -153,7 +166,7 @@ h6{
     transition: 0.5s;
 }
 .col1:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 .col2{
     
@@ -171,7 +184,7 @@ h6{
     transition: 0.5s;
 }
 .col2:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 .col3{
     
@@ -189,7 +202,7 @@ h6{
     transition: 0.5s;
 }
 .col3:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 
 .row2{
@@ -215,7 +228,7 @@ h6{
     transition: 0.5s;
 }
 .col4:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 .col5{
     
@@ -233,7 +246,7 @@ h6{
     transition: 0.5s;
 }
 .col5:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 .col6{
     
@@ -251,7 +264,7 @@ h6{
     transition: 0.5s;
 }
 .col6:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
 }
 
 
