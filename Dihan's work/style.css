@@ -43,6 +43,7 @@ form button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .todo-list{
